@@ -9,7 +9,7 @@ export default function Nav() {
   };
 
   return (
-    <nav className="bg-black border-gray-200">
+    <nav className="bg-red-600 border-gray-200">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
         <Link href="/" className="flex items-center">
           <span className="self-center text-2xl italic font-bold text-white whitespace-nowrap">
@@ -19,7 +19,7 @@ export default function Nav() {
         <button
           onClick={toggleNavbar}
           type="button"
-          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          className="inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg lg:hidden hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-200"
           data-collapse-toggle="navbar-default"
           aria-controls="navbar-default"
           aria-expanded="false"
@@ -40,7 +40,7 @@ export default function Nav() {
           </svg>
         </button>
 
-        <NavLinks navbarOpen={navbarOpen} toggleNavbar={toggleNavbar} />
+        <NavLinks navbarOpen={navbarOpen} />
       </div>
     </nav>
   );

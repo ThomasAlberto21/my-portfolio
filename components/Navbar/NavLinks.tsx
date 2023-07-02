@@ -5,10 +5,9 @@ import { FaHome, FaUser, FaEnvelope } from "react-icons/fa";
 
 interface NavLinksProps {
   navbarOpen: boolean;
-  toggleNavbar: () => void;
 }
 
-export default function NavLinks({ navbarOpen, toggleNavbar }: NavLinksProps) {
+export default function NavLinks({ navbarOpen }: NavLinksProps) {
   const navLinks = [
     {
       name: "Home",
@@ -48,9 +47,10 @@ export default function NavLinks({ navbarOpen, toggleNavbar }: NavLinksProps) {
           <li key={navLink.name}>
             <Link
               href={navLink.link}
-              className="flex items-center py-2 pl-3 pr-4 text-white rounded text-gray lg:hover:bg-transparent lg:hover:text-blue-600 hover:bg-blue-600 lg:p-0 lg:justify-center"
+              className="flex items-center py-2 pl-3 pr-4 text-white rounded text-gray lg:hover:bg-transparent  hover:bg-white lg:p-0  lg:justify-center relative group hover:text-gray-700 lg:hover:text-white "
             >
               <div className="me-2">{navLink.icons}</div> {navLink.name}
+              <span className="lg:absolute lg:-bottom-1 lg:left-0 lg:w-0 lg:h-1 bg-white transition-all duration-200 group-hover:w-full"></span>
             </Link>
           </li>
         ))}
