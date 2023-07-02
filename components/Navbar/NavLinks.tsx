@@ -38,9 +38,9 @@ export default function NavLinks({ navbarOpen, toggleNavbar }: NavLinksProps) {
   ];
 
   return (
-    <div className="w-full md:block md:w-auto">
+    <div className="w-full lg:w-auto md:block">
       <ul
-        className={`font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg lg:flex-row md:space-x-8 md:mt-0 md:border-0 ${
+        className={`font-medium flex flex-col p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg  lg:flex-row  lg:space-x-8 lg:mt-0 lg:border-0 ${
           navbarOpen ? "" : "lg:flex hidden"
         }`}
       >
@@ -48,7 +48,7 @@ export default function NavLinks({ navbarOpen, toggleNavbar }: NavLinksProps) {
           <li key={navLink.name}>
             <Link
               href={navLink.link}
-              className="py-2 pl-3 pr-4 text-gray rounded hover:bg-blue-600 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 text-white flex lg:justify-center items-center"
+              className="flex items-center py-2 pl-3 pr-4 text-white rounded text-gray lg:hover:bg-transparent lg:hover:text-blue-600 hover:bg-blue-600 lg:p-0 lg:justify-center"
             >
               <div className="me-2">{navLink.icons}</div> {navLink.name}
             </Link>

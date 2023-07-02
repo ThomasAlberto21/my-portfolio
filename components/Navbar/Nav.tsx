@@ -10,16 +10,16 @@ export default function Nav() {
 
   return (
     <nav className="bg-black border-gray-200">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
         <Link href="/" className="flex items-center">
-          <span className="self-center text-2xl  whitespace-nowrap text-white font-bold italic">
+          <span className="self-center text-2xl italic font-bold text-white whitespace-nowrap">
             Thomas Alberto
           </span>
         </Link>
         <button
           onClick={toggleNavbar}
           type="button"
-          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
           data-collapse-toggle="navbar-default"
           aria-controls="navbar-default"
           aria-expanded="false"
