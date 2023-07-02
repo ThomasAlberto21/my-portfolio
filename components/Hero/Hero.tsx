@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <main className="bg-white mt-20">
+    <main className="bg-white lg:mt-20 mt-10">
       {/* Mobile & Tablet */}
       <div className="flex lg:flex-row flex-col items-center justify-center max-w-screen-xl p-4 mx-auto lg:hidden ">
         <div className="right mb-6">
@@ -23,10 +23,10 @@ export default function Hero() {
             I&#39;m <span className="text-red-600 italic">Thomas Alberto</span>
           </h1>
           <h1 className="text-4xl">Frontend Web Developer</h1>
-          <p className="font-medium opacity-70 mt-3 mb-7 lg:px-0 px-0 md:px-28">
+          <p className="font-medium opacity-70 mt-5 mb-10 lg:px-0 px-0 md:px-28">
             Sebagai seorang Front-End Web Developer, saya menggabungkan
-            <br className="lg:block hidden" />
-            kreativitas dan keahlian teknis untuk menciptakan tampilan web yang
+            <br className="lg:block hidden" /> kreativitas dan keahlian teknis
+            untuk menciptakan tampilan web yang
             <br className="lg:block hidden" />
             memukau dan interaktif.
           </p>
@@ -48,7 +48,7 @@ export default function Hero() {
             I&#39;m <span className="text-red-600 italic">Thomas Alberto</span>
           </h1>
           <h1 className="text-4xl">Frontend Web Developer</h1>
-          <p className="font-medium opacity-70 mt-3 mb-7 lg:px-0 px-0 md:px-28">
+          <p className="font-medium opacity-70 mt-3 mb-10 lg:px-0 px-0 md:px-28">
             Sebagai seorang Front-End Web Developer, saya menggabungkan
             <br className="lg:block hidden" />
             kreativitas dan keahlian teknis untuk menciptakan tampilan web yang
