@@ -1,7 +1,13 @@
 import Link from "next/link";
+import { useState } from "react";
 import NavLinks from "./NavLinks";
 
 export default function Nav() {
+  const [navbarOpen, setNavbarOpen] = useState(false);
+  const toggleNavbar = () => {
+    setNavbarOpen(!navbarOpen);
+  };
+
   return (
     <nav className="bg-black border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -11,9 +17,10 @@ export default function Nav() {
           </span>
         </Link>
         <button
-          data-collapse-toggle="navbar-default"
+          onClick={toggleNavbar}
           type="button"
-          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          data-collapse-toggle="navbar-default"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -26,14 +33,14 @@ export default function Nav() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
           </svg>
         </button>
 
-        <NavLinks />
+        <NavLinks navbarOpen={navbarOpen} toggleNavbar={toggleNavbar} />
       </div>
     </nav>
   );
