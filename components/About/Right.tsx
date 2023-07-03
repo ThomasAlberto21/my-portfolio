@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillInstagram } from "react-icons/ai";
+import { AiFillInstagram, AiFillGithub } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import Link from "next/link";
@@ -18,17 +18,21 @@ export default function Right() {
         industri teknologi web.
       </p>
 
-      <div className="flex  items-center mt-5">
+      <div className="flex  items-center mt-5 gap-6">
         <Link href="https://www.instagram.com/thomasalberto21/">
           <AiFillInstagram className="text-white text-5xl hover:opacity-70" />
         </Link>
 
         <Link href="www.linkedin.com/in/thomasalberto21">
-          <BsLinkedin className="text-white text-4xl mx-5 hover:opacity-70" />
+          <BsLinkedin className="text-white text-4xl  hover:opacity-70" />
         </Link>
 
         <Link href="https://www.tiktok.com/@thomasalberto21">
           <FaTiktok className="text-white text-4xl hover:opacity-70" />
+        </Link>
+
+        <Link href="https://github.com/ThomasAlberto21">
+          <AiFillGithub className="text-white text-5xl hover:opacity-70" />
         </Link>
       </div>
     </div>

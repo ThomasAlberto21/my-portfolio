@@ -24,17 +24,21 @@ export default function Skills() {
         <h1 className="text-3xl text-center text-red-600 font-bold">
           Skills & Tools I Use
         </h1>
-        <div className="grid lg:grid-cols-6 grid-cols-2 mt-10 gap-5 items-center text-center">
+        <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 mt-10 gap-5 items-center text-center">
           {SkillsData.map((skill, index) => {
             return (
-              <div key={index} className="flex items-center justify-center">
-                <Image
-                  src={skill.logo}
-                  alt={skill.name}
-                  style={styles}
-                  onMouseEnter={handleHover}
-                  onMouseLeave={handleMouseLeave}
-                />
+              <div className="block" key={skill.id}>
+                <div key={index} className="flex items-center justify-center">
+                  <Image
+                    src={skill.logo}
+                    alt={skill.name}
+                    style={styles}
+                    onMouseEnter={handleHover}
+                    onMouseLeave={handleMouseLeave}
+                    onClick={() => window.open(skill.link, "_blank")}
+                  />
+                </div>
+                <p className="text-gray-600 font-semibold mt-2">{skill.name}</p>
               </div>
             );
           })}
