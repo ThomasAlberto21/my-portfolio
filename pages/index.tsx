@@ -2,6 +2,7 @@ import { NextPage } from "next";
 import Head from "next/head";
 import Hero from "@/components/Hero/Hero";
 import About from "@/components/About/About";
+import Skills from "@/components/Skills/Skills";
 
 const Index: NextPage = () => {
   return (
@@ -12,6 +13,7 @@ const Index: NextPage = () => {
       </Head>
       <Hero />
       <About />
+      <Skills />
     </>
   );
 };
