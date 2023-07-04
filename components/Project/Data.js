@@ -20,7 +20,7 @@ const ProjectData = [
       ThumbnailsImage_3,
       ThumbnailsImage_4,
     ],
-    link: "#",
+    link: "https://thomasalberto21.github.io/portfolio_1/",
   },
 ];
 
