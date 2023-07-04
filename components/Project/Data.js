@@ -11,6 +11,7 @@ const ProjectData = [
   {
     id: 1,
     title: "Portfolio Website",
+    hastag: "#frontend",
     description:
       "Project portfolio adalah sebuah inisiatif yang bertujuan untuk membuat dan memamerkan koleksi karya, prestasi, dan pengalaman seseorang. Sebuah portofolio dirancang untuk menunjukkan kemampuan dan bakat melalui berbagai jenis karya seperti desain grafis, fotografi, pengembangan web, penulisan, seni visual, dan banyak lagi. Portofolio ini berfungsi sebagai wadah yang efektif untuk memperlihatkan potensi dan menarik perhatian calon klien, perekrut, atau klien yang sudah ada. Dalam portofolio, seseorang dapat menampilkan proyek-proyek terbaik mereka, menggambarkan proses kreatif dan pemikiran di balik karya, serta memberikan informasi tentang latar belakang, pendidikan, dan pengalaman profesional mereka. Sebuah portofolio yang kuat dapat menjadi alat yang efektif untuk membangun reputasi, memperluas jaringan, dan mendapatkan kesempatan baru dalam karier atau bisnis. ",
     image: PortfolioImage_1,

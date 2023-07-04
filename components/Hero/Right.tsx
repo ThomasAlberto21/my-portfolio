@@ -4,8 +4,8 @@ import HeroImg from "../../public/assets/hero-img.jpg";
 
 export default function Right() {
   const styles = {
-    width: "350px",
-    heigh: "350px",
+    width: "320px",
+    heigh: "320px",
   };
 
   return (

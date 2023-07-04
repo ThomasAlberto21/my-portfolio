@@ -13,10 +13,13 @@ export default function Project() {
           {ProjectData.map((project) => (
             <div class="p-5" key={project.id}>
               <Image src={project.image} alt="project image" />
-              <h1 className="text-red-600 font-bold my-2 text-2xl">
+              <h1 className="text-red-600 font-bold mt-2 text-2xl">
                 {project.title}
               </h1>
-              <p class="mb-3  text-gray-600 font-medium">
+              <figcaption class="text-gray-700 mb-5 ">
+                <cite title="Source Title">{project.hastag}</cite>
+              </figcaption>
+              <p class="mb-3  text-gray-700">
                 {project.description.substring(0, 100) + "..."}
               </p>
               <Link
