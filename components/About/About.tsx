@@ -4,7 +4,7 @@ import Right from "./Right";
 
 export default function About() {
   return (
-    <main className="bg-red-600 ">
+    <main className="bg-red-600">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="white"

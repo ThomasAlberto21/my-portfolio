@@ -19,8 +19,8 @@ export default function Skills() {
   };
 
   return (
-    <main className="bg-white my-10">
-      <div className=" max-w-screen-xl p-4  mx-auto">
+    <main className="bg-white mt-5 mb-20">
+      <div className=" max-w-screen-xl   mx-auto">
         <h1 className="text-3xl text-center text-red-600 font-bold">
           Skills & Tools I Use
         </h1>
