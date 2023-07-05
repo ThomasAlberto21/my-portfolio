@@ -31,7 +31,7 @@ const ProjectData = [
       "/../public/assets/project/portfolio_2/thumbnail_7.png",
       "/../public/assets/project/portfolio_2/thumbnail_8.png",
     ],
-    link: "#",
+    link: "https://github.com/ThomasAlberto21/KasirExpress",
   },
 ];
 
