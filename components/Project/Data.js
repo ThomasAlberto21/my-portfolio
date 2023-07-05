@@ -1,27 +1,37 @@
-// Project 1
-import PortfolioImage_1 from "@/public/assets/project/portfolio_1/portfolio-1.png";
-import ThumbnailsImage_1 from "@/public/assets/project/portfolio_1/thumbnail_1.png";
-import ThumbnailsImage_2 from "@/public/assets/project/portfolio_1/thumbnail_2.png";
-import ThumbnailsImage_3 from "@/public/assets/project/portfolio_1/thumbnail_3.png";
-import ThumbnailsImage_4 from "@/public/assets/project/portfolio_1/thumbnail_4.png";
-
-// Project 2
-
 const ProjectData = [
   {
     id: 1,
     title: "Portfolio Website",
     hastag: "#frontend",
     description:
-      "Project portfolio adalah sebuah inisiatif yang bertujuan untuk membuat dan memamerkan koleksi karya, prestasi, dan pengalaman seseorang. Sebuah portofolio dirancang untuk menunjukkan kemampuan dan bakat melalui berbagai jenis karya seperti desain grafis, fotografi, pengembangan web, penulisan, seni visual, dan banyak lagi. Portofolio ini berfungsi sebagai wadah yang efektif untuk memperlihatkan potensi dan menarik perhatian calon klien, perekrut, atau klien yang sudah ada. Dalam portofolio, seseorang dapat menampilkan proyek-proyek terbaik mereka, menggambarkan proses kreatif dan pemikiran di balik karya, serta memberikan informasi tentang latar belakang, pendidikan, dan pengalaman profesional mereka. Sebuah portofolio yang kuat dapat menjadi alat yang efektif untuk membangun reputasi, memperluas jaringan, dan mendapatkan kesempatan baru dalam karier atau bisnis. ",
-    image: PortfolioImage_1,
+      "Proyek Personal Portfolio adalah sebuah website yang dibangun menggunakan HTML, CSS, dan framework Bootstrap. Website ini bertujuan untuk menyajikan informasi dan karya-karya seorang individu secara profesional. Dengan tampilan yang responsif dan menarik, website ini memberikan pengguna pengalaman yang baik saat menjelajahi portfolio pribadi. Menggunakan HTML sebagai dasar struktur, CSS untuk desain tampilan, dan Bootstrap untuk komponen siap pakai, proyek ini dapat dengan mudah diakses melalui berbagai perangkat. Melalui personal portfolio ini, individu dapat memamerkan keterampilan, proyek yang telah diselesaikan, dan informasi kontak untuk membuka peluang kolaborasi atau pekerjaan baru.",
+    image: "/../public/assets/project/portfolio_1/portfolio_1.png",
     thumbnail: [
-      ThumbnailsImage_1,
-      ThumbnailsImage_2,
-      ThumbnailsImage_3,
-      ThumbnailsImage_4,
+      "/../public/assets/project/portfolio_1/thumbnail_1.png",
+      "/../public/assets/project/portfolio_1/thumbnail_2.png",
+      "/../public/assets/project/portfolio_1/thumbnail_3.png",
+      "/../public/assets/project/portfolio_1/thumbnail_4.png",
     ],
     link: "https://thomasalberto21.github.io/portfolio_1/",
+  },
+  {
+    id: 2,
+    title: "Kasir Express",
+    hastag: "#frontend",
+    description:
+      "Project Kasir Express adalah sebuah aplikasi kasir yang dibangun dengan menggunakan React JS dan Tailwind CSS sebagai framework front-end. Aplikasi ini didesain untuk mempermudah proses transaksi di toko atau usaha kecil dengan antarmuka pengguna yang intuitif dan responsif. Backend fake-nya menggunakan db.json, sebuah database dummy yang menyimpan data transaksi, produk, dan pelanggan. Dengan menggunakan React JS, aplikasi ini memiliki performa yang cepat dan efisien. Tailwind CSS memberikan desain yang modern dan fleksibel. Kasir Express memungkinkan pengguna untuk melakukan penjualan, mengelola stok produk, dan menghasilkan laporan transaksi secara mudah dan efektif.",
+    image: "/../public/assets/project/portfolio_2/portfolio_2.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_2/thumbnail_1.png",
+      "/../public/assets/project/portfolio_2/thumbnail_2.png",
+      "/../public/assets/project/portfolio_2/thumbnail_3.png",
+      "/../public/assets/project/portfolio_2/thumbnail_4.png",
+      "/../public/assets/project/portfolio_2/thumbnail_5.png",
+      "/../public/assets/project/portfolio_2/thumbnail_6.png",
+      "/../public/assets/project/portfolio_2/thumbnail_7.png",
+      "/../public/assets/project/portfolio_2/thumbnail_8.png",
+    ],
+    link: "#",
   },
 ];
 
