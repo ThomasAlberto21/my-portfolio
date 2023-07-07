@@ -1,15 +1,15 @@
-import HtmlLogo from "../../public/assets/Logo/html.png";
-import CssLogo from "../../public/assets/Logo/css.png";
-import JavascriptLogo from "../../public/assets/Logo/javascript.png";
-import ReactLogo from "../../public/assets/Logo/react.png";
-import VueLogo from "../../public/assets/Logo/vue.png";
-import TailwindLogo from "../../public/assets/Logo/tailwind.png";
-import BootstrapLogo from "../../public/assets/Logo/bootstrap.png";
-import ReduxLogo from "../../public/assets/Logo/redux.png";
-import MySqlLogo from "../../public/assets/Logo/mysql.png";
-import FigmaLogo from "../../public/assets/Logo/figma.png";
-import GitLogo from "../../public/assets/Logo/git.png";
-import GithubLogo from "../../public/assets/Logo/github.png";
+import HtmlLogo from "../public/assets/Logo/html.png";
+import CssLogo from "../public/assets/Logo/css.png";
+import JavascriptLogo from "../public/assets/Logo/javascript.png";
+import ReactLogo from "../public/assets/Logo/react.png";
+import VueLogo from "../public/assets/Logo/vue.png";
+import TailwindLogo from "../public/assets/Logo/tailwind.png";
+import BootstrapLogo from "../public/assets/Logo/bootstrap.png";
+import ReduxLogo from "../public/assets/Logo/redux.png";
+import MySqlLogo from "../public/assets/Logo/mysql.png";
+import FigmaLogo from "../public/assets/Logo/figma.png";
+import GitLogo from "../public/assets/Logo/git.png";
+import GithubLogo from "../public/assets/Logo/github.png";
 
 const SkillsData = [
   {

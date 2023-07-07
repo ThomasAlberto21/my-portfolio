@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import SkillsData from "./Data.js";
+import SkillsData from "../../data/DataSkills.js";
 
 export default function Skills() {
   const styles = {

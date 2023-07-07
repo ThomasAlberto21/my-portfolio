@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ProjectData from "./Data";
+import ProjectData from "../../data/DataProject";
 import Link from "next/link";
 
 export default function Project() {

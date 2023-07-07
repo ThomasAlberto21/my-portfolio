@@ -33,6 +33,20 @@ const ProjectData = [
     ],
     link: "https://github.com/ThomasAlberto21/KasirExpress",
   },
+  {
+    id: 3,
+    title: "Personal Notes App",
+    hastag: "#frontend",
+    description:
+      "Proyek Personal Notes App adalah sebuah aplikasi catatan yang dibangun menggunakan React JS dan Tailwind CSS sebagai framework front-end. Aplikasi ini didesain untuk mempermudah pengguna dalam menyimpan catatan pribadi dengan antarmuka pengguna yang intuitif dan responsif. Backend fake-nya menggunakan db.json, sebuah database dummy yang menyimpan data catatan. Dengan menggunakan React JS, aplikasi ini memiliki performa yang cepat dan efisien. Tailwind CSS memberikan desain yang modern dan fleksibel. Personal Notes App memungkinkan pengguna untuk membuat, mengedit, dan menghapus catatan secara mudah dan efektif.",
+    image: "/../public/assets/project/portfolio_3/portfolio_3.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_3/thumbnail_1.png",
+      "/../public/assets/project/portfolio_3/thumbnail_2.png",
+      "/../public/assets/project/portfolio_3/thumbnail_3.png",
+    ],
+    link: "https://github.com/ThomasAlberto21/personal-notes-app-v3.0"
+  },
 ];
 
 export default ProjectData;
