@@ -4,13 +4,15 @@ import ProjectData from "../../data/DataProject";
 import Link from "next/link";
 
 export default function Project() {
+  const limitedProject = ProjectData.slice(0, 10);
+
   return (
     <main className="bg-red-600">
       <div className="max-w-screen-xl px-4 py-10  mx-auto">
         <h1 className="text-3xl text-white font-bold">Project</h1>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  gap-5 ">
-          {ProjectData.map((project) => {
+          {limitedProject.map((project) => {
             return (
               <div
                 className="max-w-sm border border-gray-200 rounded-xl bg-white mt-8 "

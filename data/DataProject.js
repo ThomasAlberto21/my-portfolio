@@ -20,7 +20,7 @@ const ProjectData = [
     hastag: "#frontend",
     description:
       "Project Kasir Express adalah sebuah aplikasi kasir yang dibangun dengan menggunakan React JS dan Tailwind CSS sebagai framework front-end. Aplikasi ini didesain untuk mempermudah proses transaksi di toko atau usaha kecil dengan antarmuka pengguna yang intuitif dan responsif. Backend fake-nya menggunakan db.json, sebuah database dummy yang menyimpan data transaksi, produk, dan pelanggan. Dengan menggunakan React JS, aplikasi ini memiliki performa yang cepat dan efisien. Tailwind CSS memberikan desain yang modern dan fleksibel. Kasir Express memungkinkan pengguna untuk melakukan penjualan, mengelola stok produk, dan menghasilkan laporan transaksi secara mudah dan efektif.",
-    image: "/../public/assets/project/portfolio_2/portfolio_2.png",
+    image: "/../public/assets/project/portfolio_2/portfolio_2_1.png",
     thumbnail: [
       "/../public/assets/project/portfolio_2/thumbnail_1.png",
       "/../public/assets/project/portfolio_2/thumbnail_2.png",
@@ -45,7 +45,26 @@ const ProjectData = [
       "/../public/assets/project/portfolio_3/thumbnail_2.png",
       "/../public/assets/project/portfolio_3/thumbnail_3.png",
     ],
-    link: "https://github.com/ThomasAlberto21/personal-notes-app-v3.0"
+    link: "https://github.com/ThomasAlberto21/personal-notes-app-v3.0",
+  },
+  {
+    id: 4,
+    title: "Greenmind",
+    hastag: "#frontend",
+    description:
+      "GreenMind adalah sebuah platform marketplace inovatif yang dirancang untuk memenuhi kebutuhan para pecinta tanaman hias. Dibangun menggunakan teknologi terkini, Vue JS 3 dan Bootstrap 5, website ini menawarkan pengalaman berbelanja yang nyaman dan menyenangkan. Dengan antarmuka yang responsif dan desain yang elegan, GreenMind mempermudah pengguna dalam menjelajahi berbagai jenis tanaman hias yang tersedia. Melalui integrasi dengan JSON server, website ini juga menjamin keamanan dan kecepatan akses data. Dengan GreenMind, pengguna dapat menjelajahi, memilih, dan membeli tanaman hias favorit mereka dengan mudah, menjadikan rumah mereka lebih hijau dan indah.",
+    image: "/../public/assets/project/portfolio_4/portfolio_4_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_4/thumbnail_1.png",
+      "/../public/assets/project/portfolio_4/thumbnail_2.png",
+      "/../public/assets/project/portfolio_4/thumbnail_3.png",
+      "/../public/assets/project/portfolio_4/thumbnail_4.png",
+      "/../public/assets/project/portfolio_4/thumbnail_5.png",
+      "/../public/assets/project/portfolio_4/thumbnail_6.png",
+      "/../public/assets/project/portfolio_4/thumbnail_7.png",
+      "/../public/assets/project/portfolio_4/thumbnail_8.png",
+    ],
+    link: "https://github.com/ThomasAlberto21/greenmind",
   },
 ];
 
