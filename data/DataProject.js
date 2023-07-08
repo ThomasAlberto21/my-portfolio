@@ -264,7 +264,45 @@ const ProjectData = [
   {
     id: 17,
     title: "Payna",
-  }
+    hastag: "#frontend",
+    description:
+      "Payna adalah sebuah website yang dibuat dengan menggunakan framework Bootstrap untuk mengelola gaji karyawan dengan mudah dan efisien. Dengan tampilan yang responsif dan modern, Payna menyediakan fitur-fitur yang memudahkan pengguna untuk mengatur dan menghitung gaji karyawan. Pengguna dapat dengan cepat memasukkan data gaji, menghitung potongan-potongan, dan menghasilkan laporan gaji yang akurat. Desain yang konsisten dan estetis dari Bootstrap memberikan pengalaman pengguna yang nyaman dan menarik. Payna memungkinkan perusahaan atau organisasi untuk secara efektif mengelola sistem gaji dengan tampilan yang intuitif dan fitur yang lengkap, sehingga menghemat waktu dan usaha dalam proses penggajian.",
+    image: "/../public/assets/project/portfolio_18/portfolio_18_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_18/thumbnail_1.png",
+      "/../public/assets/project/portfolio_18/thumbnail_2.png",
+    ],
+    link: "https://thomasalberto21.github.io/payna/",
+  },
+  {
+    id: 18,
+    title: "Movie Box",
+    hastag: "#frontend",
+    description:
+      "Movie Box adalah sebuah website yang dirancang khusus untuk menonton film secara online. Dibangun dengan menggunakan HTML dan CSS, website ini menyajikan koleksi film yang luas dengan tampilan yang menarik dan responsif. Pengguna dapat dengan mudah menjelajahi berbagai genre, melihat cuplikan film, membaca sinopsis, dan menikmati pengalaman menonton film langsung dari website. Desain yang estetis dan intuitif memastikan pengguna dapat dengan mudah menavigasi dan menemukan film yang diminati. Movie Box memberikan hiburan yang tak terbatas dengan akses ke berbagai film populer dan terbaru langsung dari kenyamanan rumah.",
+    image: "/../public/assets/project/portfolio_19/portfolio_19_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_19/thumbnail_1.png",
+      "/../public/assets/project/portfolio_19/thumbnail_2.png",
+      "/../public/assets/project/portfolio_19/thumbnail_3.png",
+    ],
+    link: "https://thomasalberto21.github.io/ProjectProgate/",
+  },
+  {
+    id: 19,
+    title: "Cerita Kita",
+    hastag: "#frontend",
+    description:
+      "Cerita Kita adalah sebuah website informasi komunitas yang didedikasikan untuk pecinta alam. Dengan tampilan yang menarik dan intuitif, website ini menyediakan platform yang menghubungkan komunitas pecinta alam dan penggemar kegiatan outdoor. Cerita Kita memberikan informasi seputar destinasi wisata alam, tips dan trik, serta pengalaman pribadi para anggota komunitas. Pengguna dapat menjelajahi berbagai artikel, foto, dan video yang menginspirasi tentang petualangan alam. Website ini juga menyediakan forum diskusi dan ruang untuk berbagi cerita pengalaman. Cerita Kita adalah tempat yang sempurna untuk para pecinta alam bersatu, berbagi, dan mendapatkan inspirasi dalam kegiatan outdoor yang menyenangkan.",
+    image: "/../public/assets/project/portfolio_20/portfolio_20_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_20/thumbnail_1.png",
+      "/../public/assets/project/portfolio_20/thumbnail_2.png",
+      "/../public/assets/project/portfolio_20/thumbnail_3.png",
+      "/../public/assets/project/portfolio_20/thumbnail_4.png",
+    ],
+    link: "#",
+  },
 ];
 
 export default ProjectData;
