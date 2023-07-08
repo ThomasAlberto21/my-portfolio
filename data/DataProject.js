@@ -180,6 +180,90 @@ const ProjectData = [
   },
   {
     id: 12,
+    title: "Geometric Calc",
+    hastag: "#frontend",
+    description:
+      "Geometric Calc adalah sebuah website yang dirancang menggunakan bahasa pemrograman Python dan framework Streamlit untuk menghitung luas dan keliling bangun ruang. Website ini menyediakan alat yang mudah digunakan bagi pengguna untuk menghitung parameter geometri dengan cepat dan akurat. Dengan tampilan yang sederhana dan intuitif, pengguna dapat memilih bangun ruang yang ingin dihitung, memasukkan nilai-nilai yang diperlukan, dan dengan mudah mendapatkan hasilnya. Geometric Calc memanfaatkan kekuatan Python dan kelebihan Streamlit dalam pengembangan web interaktif, memastikan performa yang optimal dan responsif. Dengan Geometric Calc, pengguna dapat dengan mudah menyelesaikan perhitungan geometri dengan mudah dan efisien.",
+    image: "/../public/assets/project/portfolio_13/portfolio_13_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_13/thumbnail_1.png",
+      "/../public/assets/project/portfolio_13/thumbnail_2.png",
+      "/../public/assets/project/portfolio_13/thumbnail_3.png",
+      "/../public/assets/project/portfolio_13/thumbnail_4.png",
+      "/../public/assets/project/portfolio_13/thumbnail_5.png",
+    ],
+    link: "https://thomasalberto21-aplikasi-hitung-kelilingdanluas-main-2jsjlz.streamlit.app/",
+  },
+  {
+    id: 13,
+    title: "Metaverse Madness",
+    hastag: "#frontend",
+    description:
+      "Metaverse Madness adalah sebuah website yang dibangun dengan menggunakan React JS dan Tailwind CSS. Website ini memperkenalkan pengguna ke dunia metaverse yang menakjubkan dengan tampilan yang menarik dan responsif. Dengan dukungan React JS, pengguna dapat menjelajahi berbagai lokasi virtual, berinteraksi dengan karakter animasi, dan menikmati pengalaman virtual yang mendalam. Desain yang ditingkatkan oleh Tailwind CSS memberikan tampilan yang konsisten dan modern. Metaverse Madness adalah pintu gerbang untuk menjelajahi dunia metaverse dengan mudah, memberikan pengalaman interaktif yang memikat dan memungkinkan pengguna untuk memperluas batasan imajinasi mereka.",
+    image: "/../public/assets/project/portfolio_14/portfolio_14_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_14/thumbnail_1.png",
+      "/../public/assets/project/portfolio_14/thumbnail_2.png",
+      "/../public/assets/project/portfolio_14/thumbnail_3.png",
+      "/../public/assets/project/portfolio_14/thumbnail_4.png",
+      "/../public/assets/project/portfolio_14/thumbnail_5.png",
+      "/../public/assets/project/portfolio_14/thumbnail_6.png",
+    ],
+    link: "https://legendary-kleicha-f4502e.netlify.app/",
+  },
+  {
+    id: 14,
+    title: "Dream Travel",
+    hastag: "#frontend",
+    description:
+      "Dream Travel adalah sebuah website yang dibangun menggunakan React JS dan Tailwind CSS, memberikan pengalaman eksplorasi perjalanan yang menakjubkan. Dengan desain yang menawan dan responsif, website ini mengajak pengguna untuk memimpikan petualangan baru di destinasi impian mereka. Dream Travel menawarkan informasi lengkap tentang destinasi populer, mulai dari atraksi wisata hingga akomodasi yang tersedia. Fitur pencarian dan filter memudahkan pengguna untuk menemukan tujuan sesuai minat mereka. Dengan dukungan React JS, website ini menawarkan interaksi yang mulus dan pengalaman pengguna yang teroptimasi. Tailwind CSS memberikan desain yang modern dan fleksibel. Dream Travel adalah portal inspirasi perjalanan yang memenuhi impian dan membantu pengguna merencanakan perjalanan tak terlupakan.",
+    image: "/../public/assets/project/portfolio_15/portfolio_15_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_15/thumbnail_1.png",
+      "/../public/assets/project/portfolio_15/thumbnail_2.png",
+      "/../public/assets/project/portfolio_15/thumbnail_3.png",
+      "/../public/assets/project/portfolio_15/thumbnail_4.png",
+      "/../public/assets/project/portfolio_15/thumbnail_5.png",
+      "/../public/assets/project/portfolio_15/thumbnail_6.png",
+      "/../public/assets/project/portfolio_15/thumbnail_7.png",
+    ],
+    link: "https://react-dream-travel.netlify.app/",
+  },
+  {
+    id: 15,
+    title: "Music App",
+    hastag: "#frontend",
+    description:
+      "Website Music App merupakan sebuah platform inovatif yang dibangun dengan menggunakan React JS, Tailwind CSS, dan memanfaatkan layanan Rapid API. Website ini menawarkan pengalaman mendalam dalam mendengarkan musik secara online. Dengan desain yang modern dan responsif, pengguna dapat menjelajahi berbagai genre musik, mencari lagu, dan membuat daftar putar pribadi. Melalui integrasi dengan Rapid API, website ini dapat menyediakan informasi terkini tentang artis, album, dan lirik lagu. Fitur interaktif seperti pemutaran musik, pengaturan volume, dan kontrol lainnya memberikan pengalaman mendengarkan musik yang memuaskan. Music App adalah tempat ideal bagi para pecinta musik untuk menikmati dan mengeksplorasi dunia musik dengan mudah dan menyenangkan.",
+    image: "/../public/assets/project/portfolio_16/portfolio_16_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_16/thumbnail_1.png",
+      "/../public/assets/project/portfolio_16/thumbnail_2.png",
+      "/../public/assets/project/portfolio_16/thumbnail_3.png",
+      "/../public/assets/project/portfolio_16/thumbnail_4.png",
+    ],
+    link: "https://thomas-music-app.netlify.app/",
+  },
+  {
+    id: 16,
+    title: "Nomads",
+    hastag: "#frontend",
+    description:
+      "Nomads adalah sebuah website travel yang dibangun menggunakan framework Bootstrap. Website ini menyajikan pengalaman perjalanan yang menakjubkan dengan desain yang responsif dan modern. Nomads menampilkan destinasi perjalanan populer dengan gambar dan deskripsi yang memikat hati. Pengguna dapat dengan mudah menjelajahi berbagai tujuan, menemukan informasi tentang akomodasi, atraksi wisata, dan rekomendasi aktivitas. Desain yang konsisten dan fleksibel dari Bootstrap memberikan tampilan yang menarik dan tata letak yang intuitif. Nomads membantu pengguna dalam merencanakan perjalanan impian mereka dengan mudah, menawarkan inspirasi perjalanan dan fitur yang memberikan pengalaman browsing yang nyaman dan memuaskan.",
+    image: "/../public/assets/project/portfolio_17/portfolio_17_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_17/thumbnail_1.png",
+      "/../public/assets/project/portfolio_17/thumbnail_2.png",
+      "/../public/assets/project/portfolio_17/thumbnail_3.png",
+      "/../public/assets/project/portfolio_17/thumbnail_4.png",
+      "/../public/assets/project/portfolio_17/thumbnail_5.png",
+      "/../public/assets/project/portfolio_17/thumbnail_6.png",
+    ],
+    link: "https://thomasalberto21.github.io/nomads_website/",
+  },
+  {
+    id: 17,
+    title: "Payna",
   }
 ];
 
