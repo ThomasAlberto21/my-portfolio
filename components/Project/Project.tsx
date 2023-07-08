@@ -4,7 +4,7 @@ import ProjectData from "../../data/DataProject";
 import Link from "next/link";
 
 export default function Project() {
-  const limitedProject = ProjectData.slice(0, 10);
+  const limitedProject = ProjectData.slice(0, 20);
 
   return (
     <main className="bg-red-600">

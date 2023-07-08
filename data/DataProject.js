@@ -84,7 +84,7 @@ const ProjectData = [
   },
   {
     id: 6,
-    title: "Todo List",
+    title: "Todo List Dicoding",
     hastag: "#frontend",
     description:
       "Todo List yang dibuat menggunakan HTML, CSS, dan JavaScript adalah sebuah proyek yang dikembangkan melalui program Dicoding. Aplikasi ini dirancang untuk membantu pengguna mengatur tugas-tugas sehari-hari dengan mudah. Dengan tampilan yang sederhana namun menarik, pengguna dapat dengan cepat menambahkan dan menghapus tugas dalam daftar. Pengguna juga dapat menandai tugas yang telah selesai untuk memantau kemajuan mereka. Dengan dukungan dari HTML, CSS, dan JavaScript, proyek ini memberikan antarmuka yang responsif dan ramah pengguna. Dicoding sebagai platform pembelajaran, menyediakan panduan yang komprehensif untuk membantu pengembang memahami dan mengimplementasikan fitur-fitur ini dengan mudah.",
@@ -166,7 +166,20 @@ const ProjectData = [
   },
   {
     id: 11,
-    title: "Portfolio Photography 2",
+    title: "Bookshelf Dicoding",
+    hastag: "#frontend",
+    description:
+      "Website Bookshelf merupakan proyek akhir Dicoding yang dibangun menggunakan HTML, CSS, dan JavaScript. Website ini menyediakan platform digital untuk mengatur dan menyimpan koleksi buku secara online. Dengan tampilan yang menarik dan responsif, pengguna dapat dengan mudah menambahkan, mengedit, dan menghapus buku dalam rak buku virtual. Fitur pencarian dan filter juga disediakan untuk membantu pengguna menemukan buku dengan cepat. Melalui integrasi JavaScript, pengguna dapat menyimpan data buku secara lokal dan mengaksesnya kembali saat kembali ke situs. Website Bookshelf merupakan solusi praktis dan user-friendly untuk pengelolaan koleksi buku digital.",
+    image: "/../public/assets/project/portfolio_12/portfolio_12_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_12/thumbnail_1.png",
+      "/../public/assets/project/portfolio_12/thumbnail_2.png",
+      "/../public/assets/project/portfolio_12/thumbnail_3.png",
+    ],
+    link: "https://thomasalberto21.github.io/bookshelf/",
+  },
+  {
+    id: 12,
   }
 ];
 
