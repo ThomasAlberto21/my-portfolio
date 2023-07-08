@@ -66,6 +66,73 @@ const ProjectData = [
     ],
     link: "https://github.com/ThomasAlberto21/greenmind",
   },
+  {
+    id: 5,
+    title: "Blog",
+    hastag: "#frontend",
+    description:
+      "Web blog yang dibuat menggunakan React JS adalah sebuah platform modern yang memadukan kemudahan pengembangan dengan performa tinggi. Dengan desain yang responsif dan tampilan yang menarik, blog ini menawarkan pengalaman yang menakjubkan bagi pengunjung. Dibangun dengan komponen-komponen yang dapat digunakan kembali, pengembang dapat dengan mudah menyesuaikan tampilan dan fungsionalitas blog sesuai kebutuhan. React JS juga memberikan kemampuan interaktif yang kuat, seperti navigasi yang halus dan komentar langsung, untuk meningkatkan interaksi pengguna. Dengan dukungan teknologi terkini, web blog ini memungkinkan pembaca untuk menikmati konten yang kaya dan responsif dengan kecepatan tinggi.",
+    image: "/../public/assets/project/portfolio_6/portfolio_6_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_6/thumbnail_1.png",
+      "/../public/assets/project/portfolio_6/thumbnail_2.png",
+      "/../public/assets/project/portfolio_6/thumbnail_3.png",
+      "/../public/assets/project/portfolio_6/thumbnail_4.png",
+      "/../public/assets/project/portfolio_6/thumbnail_5.png",
+    ],
+    link: "https://github.com/ThomasAlberto21/react-blog-frontend",
+  },
+  {
+    id: 6,
+    title: "Todo List",
+    hastag: "#frontend",
+    description:
+      "Todo List yang dibuat menggunakan HTML, CSS, dan JavaScript adalah sebuah proyek yang dikembangkan melalui program Dicoding. Aplikasi ini dirancang untuk membantu pengguna mengatur tugas-tugas sehari-hari dengan mudah. Dengan tampilan yang sederhana namun menarik, pengguna dapat dengan cepat menambahkan dan menghapus tugas dalam daftar. Pengguna juga dapat menandai tugas yang telah selesai untuk memantau kemajuan mereka. Dengan dukungan dari HTML, CSS, dan JavaScript, proyek ini memberikan antarmuka yang responsif dan ramah pengguna. Dicoding sebagai platform pembelajaran, menyediakan panduan yang komprehensif untuk membantu pengembang memahami dan mengimplementasikan fitur-fitur ini dengan mudah.",
+    image: "/../public/assets/project/portfolio_7/portfolio_7_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_7/thumbnail_1.png",
+      "/../public/assets/project/portfolio_7/thumbnail_2.png",
+      "/../public/assets/project/portfolio_7/thumbnail_3.png",
+      "/../public/assets/project/portfolio_7/thumbnail_4.png",
+      "/../public/assets/project/portfolio_7/thumbnail_5.png",
+    ],
+    link: "https://thomasalberto21.github.io/todoapps/",
+  },
+  {
+    id: 7,
+    title: "Coral",
+    hastag: "#frontend",
+    description:
+      "Coral adalah sebuah website e-commerce yang mengkhususkan diri dalam penjualan pakaian wanita dan pria. Dengan desain yang elegan dan modern, website ini menawarkan pengalaman berbelanja yang menyenangkan dan mudah bagi para pengguna. Coral menyediakan berbagai macam koleksi pakaian terkini, mulai dari gaya kasual hingga formal, dengan pilihan yang luas untuk memenuhi selera dan gaya hidup individu. Dengan fitur-fitur yang intuitif, pengguna dapat dengan mudah menjelajahi katalog produk, memfilter berdasarkan kategori, warna, ukuran, dan lainnya. Coral juga menawarkan pengiriman cepat dan pembayaran yang aman, sehingga membuat pengalaman berbelanja online menjadi lebih nyaman dan memuaskan.",
+    image: "/../public/assets/project/portfolio_8/portfolio_8_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_8/thumbnail_1.png",
+      "/../public/assets/project/portfolio_8/thumbnail_2.png",
+      "/../public/assets/project/portfolio_8/thumbnail_3.png",
+      "/../public/assets/project/portfolio_8/thumbnail_4.png",
+      "/../public/assets/project/portfolio_8/thumbnail_5.png",
+      "/../public/assets/project/portfolio_8/thumbnail_6.png",
+      "/../public/assets/project/portfolio_8/thumbnail_7.png",
+      "/../public/assets/project/portfolio_8/thumbnail_8.png",
+      "/../public/assets/project/portfolio_8/thumbnail_9.png",
+    ],
+    link: "https://github.com/ThomasAlberto21/coral",
+  },
+  {
+    id: 8,
+    title: "Portfolio Photography",
+    hastag: "#frontend",
+    description:
+      "Website portfolio photography yang dibuat dengan React JS adalah sebuah platform yang memadukan keindahan desain dan kekuatan teknologi. Dengan penggunaan React JS, website ini menawarkan tampilan yang responsif dan pengalaman yang interaktif bagi pengunjung. Setiap foto yang ditampilkan dalam portfolio ditampilkan dengan kejelasan dan keindahan yang tinggi, menampilkan keahlian dan gaya unik dari seorang fotografer. Dibangun dengan komponen-komponen yang dapat digunakan kembali, pengembang dapat dengan mudah menyesuaikan tampilan dan fungsionalitas website sesuai dengan kebutuhan. Dukungan teknologi React JS juga memungkinkan pengguna untuk menjelajahi dan menikmati koleksi foto dengan kecepatan tinggi dan keselarasan antara tampilan dan interaksi.",
+    image: "/../public/assets/project/portfolio_9/portfolio_9_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_9/thumbnail_1.png",
+      "/../public/assets/project/portfolio_9/thumbnail_2.png",
+      "/../public/assets/project/portfolio_9/thumbnail_3.png",
+      "/../public/assets/project/portfolio_9/thumbnail_4.png",
+    ],
+    link: "https://thomasalberto21.github.io/portfolio-photography/",
+  },
 ];
 
 export default ProjectData;
