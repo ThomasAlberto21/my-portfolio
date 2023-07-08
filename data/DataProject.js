@@ -133,6 +133,41 @@ const ProjectData = [
     ],
     link: "https://thomasalberto21.github.io/portfolio-photography/",
   },
+  {
+    id: 9,
+    title: "Restaurant",
+    hastag: "#frontend",
+    description:
+      "Website restaurant yang dibuat menggunakan Vue JS dan db.json adalah sebuah platform yang menghadirkan pengalaman kuliner yang menggugah selera. Dengan antarmuka yang menarik dan responsif, pengguna dapat dengan mudah menjelajahi menu, melihat gambar makanan, membaca ulasan, dan memesan makanan secara online. Dibangun dengan Vue JS, website ini memberikan performa yang tinggi dan fleksibilitas dalam mengelola data dari file db.json. Pengguna dapat dengan mudah menambahkan, mengedit, dan menghapus makanan serta mengatur stok dan harga dengan mudah melalui file db.json. Dengan kombinasi Vue JS dan db.json, website ini memberikan pengalaman yang lancar dan interaktif bagi pengunjungnya.",
+    image: "/../public/assets/project/portfolio_10/portfolio_10_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_10/thumbnail_1.png",
+      "/../public/assets/project/portfolio_10/thumbnail_2.png",
+      "/../public/assets/project/portfolio_10/thumbnail_3.png",
+    ],
+    link: "https://github.com/ThomasAlberto21/restaurant",
+  },
+  {
+    id: 10,
+    title: "HooBank",
+    hastag: "#frontend",
+    description:
+      "HooBank adalah sebuah website inovatif yang dibangun menggunakan React JS dan Tailwind CSS. Website ini menyediakan layanan perbankan digital yang memudahkan pengguna dalam mengelola keuangan mereka. Dengan desain yang modern dan responsif, HooBank menawarkan antarmuka yang intuitif dan ramah pengguna. Pengguna dapat dengan mudah melakukan transaksi perbankan, seperti transfer dana, pembayaran tagihan, dan melihat riwayat transaksi. Dibangun dengan menggunakan React JS, website ini menawarkan performa yang tinggi dan reaktivitas yang cepat. Sementara itu, Tailwind CSS memberikan fleksibilitas dalam desain tampilan dengan gaya yang konsisten dan profesional. HooBank adalah solusi perbankan digital yang canggih dan nyaman untuk kebutuhan keuangan sehari-hari.",
+    image: "/../public/assets/project/portfolio_11/portfolio_11_1.png",
+    thumbnail: [
+      "/../public/assets/project/portfolio_11/thumbnail_1.png",
+      "/../public/assets/project/portfolio_11/thumbnail_2.png",
+      "/../public/assets/project/portfolio_11/thumbnail_3.png",
+      "/../public/assets/project/portfolio_11/thumbnail_4.png",
+      "/../public/assets/project/portfolio_11/thumbnail_5.png",
+      "/../public/assets/project/portfolio_11/thumbnail_6.png",
+    ],
+    link: "https://react-hoobank-project.netlify.app/",
+  },
+  {
+    id: 11,
+    title: "Portfolio Photography 2",
+  }
 ];
 
 export default ProjectData;
