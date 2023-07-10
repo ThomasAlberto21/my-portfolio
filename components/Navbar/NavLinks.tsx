@@ -16,22 +16,22 @@ export default function NavLinks({ navbarOpen }: NavLinksProps) {
     },
     {
       name: "About",
-      link: "#about",
+      link: "/",
       icons: <FaUser />,
     },
     {
       name: "Skills",
-      link: "#skills",
+      link: "/",
       icons: <GiSkills />,
     },
     {
       name: "Project",
-      link: "#project",
+      link: "/",
       icons: <GoProjectSymlink />,
     },
     {
       name: "Contact",
-      link: "#contact",
+      link: "/",
       icons: <FaEnvelope />,
     },
   ];
