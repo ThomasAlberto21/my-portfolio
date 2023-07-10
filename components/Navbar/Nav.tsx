@@ -26,7 +26,7 @@ export default function Nav() {
 
   return (
     <nav
-      className={`bg-red-600 border-gray-200 ${navbarPosition}`}
+      className={`bg-red-600 border-gray-200 ${navbarPosition} shadow-xl`}
       style={{ top: 0, left: 0, right: 0, zIndex: 999 }}
     >
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
