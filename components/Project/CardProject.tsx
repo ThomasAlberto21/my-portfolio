@@ -32,7 +32,7 @@ export default function CardProject() {
                 {project.description.substring(0, 101) + "..."}
               </p>
               <Link
-                href={project.link}
+                href={`/detailProject?id=${project.id}`}
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-red-600 rounded-md hover:bg-red-700 cursor-pointer"
               >
                 Read more
