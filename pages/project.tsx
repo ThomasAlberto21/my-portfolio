@@ -32,7 +32,7 @@ export default function index() {
                   {project.description.substring(0, 101) + "..."}
                 </p>
                 <Link
-                  href={project.link}
+                  href={`/detailProject?id=${project.id}`}
                   className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-red-600 bg-white rounded-md hover:bg-gray-100 cursor-pointer"
                 >
                   Read more

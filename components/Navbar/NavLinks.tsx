@@ -11,7 +11,7 @@ export default function NavLinks({ navbarOpen }: NavLinksProps) {
   const navLinks = [
     {
       name: "Home",
-      link: "#",
+      link: "/",
       icons: <FaHome />,
     },
     {

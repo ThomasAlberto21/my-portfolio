@@ -30,7 +30,7 @@ export default function Nav() {
       style={{ top: 0, left: 0, right: 0, zIndex: 999 }}
     >
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
-        <Link href="#" className="flex items-center">
+        <Link href="/" className="flex items-center">
           <span className="self-center text-2xl italic font-bold text-white whitespace-nowrap">
             Thomas Alberto
           </span>
