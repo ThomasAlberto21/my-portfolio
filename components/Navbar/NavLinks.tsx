@@ -11,27 +11,27 @@ export default function NavLinks({ navbarOpen }: NavLinksProps) {
   const navLinks = [
     {
       name: "Home",
-      link: "/",
+      link: "#",
       icons: <FaHome />,
     },
     {
       name: "About",
-      link: "/about",
+      link: "#about",
       icons: <FaUser />,
     },
     {
       name: "Skills",
-      link: "/skills",
+      link: "#skills",
       icons: <GiSkills />,
     },
     {
       name: "Project",
-      link: "/project",
+      link: "#project",
       icons: <GoProjectSymlink />,
     },
     {
       name: "Contact",
-      link: "/contact",
+      link: "#contact",
       icons: <FaEnvelope />,
     },
   ];

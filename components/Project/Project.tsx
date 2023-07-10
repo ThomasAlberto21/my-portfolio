@@ -7,7 +7,7 @@ export default function Project() {
   const limitedProject = ProjectData.slice(0, 20);
 
   return (
-    <main className="bg-red-600">
+    <main className="bg-red-600" id="project">
       <div className="max-w-screen-xl px-4 py-10  mx-auto">
         <h1 className="text-3xl text-white font-bold">Project</h1>
 
